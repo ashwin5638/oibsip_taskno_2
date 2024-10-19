@@ -1,0 +1,111 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head{
+    font-size: 35px;
+    font-weight: bold;
+    color: rgb(214, 77, 77);
+    text-align: center;
+}
+.to-do-conatiner{
+    height: 60px;
+    margin-top: 20px;
+    width: 600px;
+    box-shadow: 3px 3px 3px 3px rgb(150, 147, 147);
+    background-color: rgb(245, 242, 240);
+    border-radius: 40px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width: 480px){
+    .to-do-conatiner{
+        height: 40px;
+        margin-top: 20px;
+        width: 400px;
+        box-shadow: 3px 3px 3px 3px rgb(150, 147, 147);
+        background-color: rgb(245, 242, 240);
+        border-radius: 40px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+   
+}
+
+
+.input-todo{
+    height: 54px;
+    width: 500px;
+    padding-left: 29px;
+    font-size: 22px;
+    border-radius: 40px;
+    outline: none;
+    border: none;
+    background-color: rgb(245, 242, 239);
+}
+@media screen and (max-width: 480px){
+    .input-todo{
+        height: 40px;
+        width: 400px;
+        padding-left: 29px;
+        font-size: 22px;
+        border-radius: 40px;
+        outline: none;
+        border: none;
+        background-color: rgb(245, 242, 239);
+    }
+}
+.buttn{
+    height: 60px;
+    width: 130px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 40px;
+    border: 0px;
+    background-color: rgb(231, 110, 40);
+}
+@media screen and (max-width: 480px){
+    .buttn{
+        height: 42px;
+        width: 100px;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 40px;
+        border: 0px;
+        background-color: rgb(231, 110, 40);
+    }
+}
+.list-container{
+    list-style-type: none;
+    margin-right: 300px;
+    margin-top: 80px;
+    font-size: 25px;
+    font-family: roboto;
+}
+
+ul li span{
+   position: absolute;
+   margin-left: 200px;
+   width: 20px;
+   height: 30px;
+   font-size: 30px;
+   color: #555;
+   font-weight: bold;
+}
+ul li span:hover{
+    background-color: rgb(225, 224, 222);
+    height: 30px;
+    width: 25px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+li{
+    margin: 20px;
+}
